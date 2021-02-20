@@ -39,7 +39,7 @@ function getResults(query) {
 
 function displatResults(res) {
     if (res.message == "Not Found") {
-        alert(' unkown user');
+        alert(' unknown user');
 
     } else {
 
