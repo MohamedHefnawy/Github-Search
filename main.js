@@ -7,7 +7,7 @@ function setQuery(evt) {
     if (evt.keyCode == 13) {
         if (search.value.trim() != 0) {
             getResults(search.value);
-            console.log(search.value);
+            
         } else {
             console.log('else');
             alert('you have to enter something ');
@@ -19,7 +19,7 @@ searchBtn.onclick = () => {
 
     if (search.value.trim() != 0) {
         getResults(search.value);
-        console.log(search.value);
+        
     } else {
         console.log('else');
         alert('you have to enter something ');
